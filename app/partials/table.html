@@ -1,0 +1,27 @@
+
+<!-- START RESPONSIVE TABLES-->
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+
+            <div class="panel-heading">
+                <h3 class="panel-title">Table Partial</h3>
+            </div>
+            <div class="mb-content">
+                <p>built with ng-repeat in a directive, the green color for booked  is a databinding angular code below</p>
+                <p><span style="color:mediumvioletred" >ng-repeat="booking in week" ng-class="{booked: booking.booked}">{{booking.day}}</span></p>
+            </div>
+            <div class="panel-body panel-body-table">
+
+                <div class="table-responsive">
+                    <div ng-controller="TableController">
+                        <datetable></datetable>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- END RESPONSIVE TABLES -->
